@@ -48,7 +48,12 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 
 ---
 
-## 🖥️ Usage
+## 🖥️ Gettong started!
+
+### Clonoing into your device
+```bash
+https://github.com/husaltam/push_swap.git
+```
 
 ### 📦 Compiling
 
@@ -63,7 +68,7 @@ make bonus
 ```
 
 ### 📂 Running `push_swap`
-
+As a requirement of the project, no repeated numbers are allowd as input!
 ```bash
 ./push_swap <list of integers>
 ```
@@ -73,21 +78,27 @@ make bonus
 ./push_swap 2 1 3 6 5 8
 ```
 
-If input is invalid (non-integers, duplicates, or out of bounds), it will print:
+program will outp a set of moves that if applied to this first stack and useing another empty stack, we will ended up by fully sorted list
 
 ```
-Error
+pb
+pb
+rb
+pb
+sa
+pa
+pa
+pa
+
 ```
 
 ---
 
-### 📂 Running `checker` (Bonus)
+### 📂 Running `checker` (Bonus) -> Second part of the project
 
-The `checker` program reads instructions from standard input and applies them to a stack created from given arguments.
+The `checker` program reads instructions from standard input and applies them to a stack created from given arguments,, ie, it can take what ever the push_swap program has givin to us then apply these moves to print out the final sorted list
 
-```bash
-./checker <list of integers>
-```
+## First usage : make sure that a given instruciton will end up in sorting the given list arguments 
 
 **Example:**
 ```bash
@@ -103,7 +114,7 @@ sa
 pa
 pa
 ```
-
+The make sure to hit Ctr + D for EOF signal to end the imput stream.
 If sorted correctly, it outputs:
 
 ```
@@ -123,6 +134,17 @@ Error
 ```
 
 ---
+## Other usage example of the checker file : Why not taking the list of our instructions through ./push_swap then pip these results to ./checker ?? Smart, isn't it?
+
+```bash
+ ARG="2 1 5 6 8"; ./push_swap $ARG | ./checker $ARG
+```
+
+**Result:**
+```bash
+OK!
+1 2 3 5 6 8
+```
 
 ## 📝 Benchmark Requirements
 
