@@ -50,25 +50,22 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 
 ## 🖥️ Gettong started!
 
-### Clonoing into your device
+### Cloning into your device
 ```bash
-https://github.com/husaltam/push_swap.git
+git clone https://github.com/husaltam/push_swap.git push_swap
+cd push_swap
 ```
 
 ### 📦 Compiling
 
 ```bash
 make
-```
-
-To build both the **mandatory** and **bonus** programs:
-
-```bash
 make bonus
 ```
 
+
 ### 📂 Running `push_swap`
-As a requirement of the project, no repeated numbers are allowd as input!
+As a requirement of the project, no repeated numbers are allowed as input!
 ```bash
 ./push_swap <list of integers>
 ```
@@ -78,7 +75,7 @@ As a requirement of the project, no repeated numbers are allowd as input!
 ./push_swap 2 1 3 6 5 8
 ```
 
-program will outp a set of moves that if applied to this first stack and useing another empty stack, we will ended up by fully sorted list
+Program will output a set of moves that if applied to this first stack and using another empty stack, we will end up with a fully sorted list:
 
 ```
 pb
@@ -89,16 +86,15 @@ sa
 pa
 pa
 pa
-
 ```
 
 ---
 
 ### 📂 Running `checker` (Bonus) -> Second part of the project
 
-The `checker` program reads instructions from standard input and applies them to a stack created from given arguments,, ie, it can take what ever the push_swap program has givin to us then apply these moves to print out the final sorted list
+The `checker` program reads instructions from standard input and applies them to a stack created from given arguments — i.e., it can take whatever the push_swap program has given to us then apply these moves to verify the final sorted list.
 
-## First usage : make sure that a given instruciton will end up in sorting the given list arguments 
+## First usage: make sure that a given instruction will end up sorting the given list arguments 
 
 **Example:**
 ```bash
@@ -114,7 +110,8 @@ sa
 pa
 pa
 ```
-The make sure to hit Ctr + D for EOF signal to end the imput stream.
+Then make sure to hit `Ctrl + D` for EOF signal to end the input stream.
+
 If sorted correctly, it outputs:
 
 ```
@@ -134,10 +131,11 @@ Error
 ```
 
 ---
-## Other usage example of the checker file : Why not taking the list of our instructions through ./push_swap then pip these results to ./checker ?? Smart, isn't it?
+
+## Other usage example of the checker file: Why not take the list of our instructions through `./push_swap` then pipe these results to `./checker`? Smart, isn't it?
 
 ```bash
- ARG="2 1 5 6 8"; ./push_swap $ARG | ./checker $ARG
+ARG="2 1 5 6 8"; ./push_swap $ARG | ./checker $ARG
 ```
 
 **Result:**
@@ -145,6 +143,8 @@ Error
 OK!
 1 2 3 5 6 8
 ```
+
+---
 
 ## 📝 Benchmark Requirements
 
