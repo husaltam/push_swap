@@ -31,7 +31,7 @@ I completed both the **mandatory** and **bonus parts** of this project.
 
 You have **2 stacks: `a` and `b`**.  
 The goal is to sort numbers in **stack `a`** in ascending order using the following operations:
-
+![screenshot](Documanetation/push_swap_1.png)
 | Operation | Description |
 |:------------|:------------------------------------------------|
 | `sa` | Swap the first 2 elements of stack a |
@@ -213,3 +213,4 @@ I successfully met both benchmarks.
 ---
 
 > *Project developed for 42 programming school.*
+![screenshot](Documanetation/push_swap_2.png)
