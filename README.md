@@ -49,7 +49,7 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 ![screenshot](Documanetation/push_swap_1.png)
 ---
 
-## 🖥️ Gettong started!
+## 🖥️ Getting started!
 
 ### Cloning into your device
 ```bash
