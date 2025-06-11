@@ -45,6 +45,7 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 | `rra` | Reverse rotate stack `a` down by 1 |
 | `rrb` | Reverse rotate stack `b` down by 1 |
 | `rrr` | `rra` and `rrb` at the same time |
+
 ![screenshot](Documanetation/push_swap_1.png)
 ---
 
