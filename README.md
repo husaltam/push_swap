@@ -32,9 +32,8 @@ I completed both the **mandatory** and **bonus parts** of this project.
 You have **2 stacks: `a` and `b`**.  
 The goal is to sort numbers in **stack `a`** in ascending order using the following operations:
 
+![screenshot](Documanetation/push_swap_1.png)
 <div align="center">
-
-<!-- You can write your table in Markdown inside the div -->
   
 | Operation | Description |
 |:------------|:------------------------------------------------|
@@ -53,7 +52,7 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 </div>
 
 
-![screenshot](Documanetation/push_swap_1.png)
+
 ---
 
 ## 🖥️ Getting started!
