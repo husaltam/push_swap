@@ -34,6 +34,8 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 
 ![screenshot](Documanetation/stacks_0.png)
 
+<p align="center"><strong>Push Swap Operations</strong></p>
+
 | Operation | Description                                |
 |-----------|--------------------------------------------|
 | `sa`      | Swap the first 2 elements of stack `a`     |
