@@ -35,27 +35,30 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 ![screenshot](Documanetation/stacks_0.png)
 
 
-<table style="width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th style="text-align: left; padding: 8px;">Operation</th>
-      <th style="text-align: left; padding: 8px;">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td style="padding: 8px;">sa</td><td style="padding: 8px;">Swap the first 2 elements of stack a</td></tr>
-    <tr><td style="padding: 8px;">sb</td><td style="padding: 8px;">Swap the first 2 elements of stack b</td></tr>
-    <tr><td style="padding: 8px;">ss</td><td style="padding: 8px;">sa and sb at the same time</td></tr>
-    <tr><td style="padding: 8px;">pa</td><td style="padding: 8px;">Push the first element from b to a</td></tr>
-    <tr><td style="padding: 8px;">pb</td><td style="padding: 8px;">Push the first element from a to b</td></tr>
-    <tr><td style="padding: 8px;">ra</td><td style="padding: 8px;">Rotate stack a up by 1</td></tr>
-    <tr><td style="padding: 8px;">rb</td><td style="padding: 8px;">Rotate stack b up by 1</td></tr>
-    <tr><td style="padding: 8px;">rr</td><td style="padding: 8px;">ra and rb at the same time</td></tr>
-    <tr><td style="padding: 8px;">rra</td><td style="padding: 8px;">Reverse rotate stack a down by 1</td></tr>
-    <tr><td style="padding: 8px;">rrb</td><td style="padding: 8px;">Reverse rotate stack b down by 1</td></tr>
-    <tr><td style="padding: 8px;">rrr</td><td style="padding: 8px;">rra and rrb at the same time</td></tr>
-  </tbody>
-</table>
+<div style="margin: 0; padding: 0;">
+  <table style="width: 100vw; border-collapse: collapse; margin: 0; padding: 0;">
+    <thead>
+      <tr>
+        <th style="text-align: left; padding: 12px;">Operation</th>
+        <th style="text-align: left; padding: 12px;">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="padding: 12px;">sa</td><td style="padding: 12px;">Swap the first 2 elements of stack a</td></tr>
+      <tr><td style="padding: 12px;">sb</td><td style="padding: 12px;">Swap the first 2 elements of stack b</td></tr>
+      <tr><td style="padding: 12px;">ss</td><td style="padding: 12px;">sa and sb at the same time</td></tr>
+      <tr><td style="padding: 12px;">pa</td><td style="padding: 12px;">Push the first element from b to a</td></tr>
+      <tr><td style="padding: 12px;">pb</td><td style="padding: 12px;">Push the first element from a to b</td></tr>
+      <tr><td style="padding: 12px;">ra</td><td style="padding: 12px;">Rotate stack a up by 1</td></tr>
+      <tr><td style="padding: 12px;">rb</td><td style="padding: 12px;">Rotate stack b up by 1</td></tr>
+      <tr><td style="padding: 12px;">rr</td><td style="padding: 12px;">ra and rb at the same time</td></tr>
+      <tr><td style="padding: 12px;">rra</td><td style="padding: 12px;">Reverse rotate stack a down by 1</td></tr>
+      <tr><td style="padding: 12px;">rrb</td><td style="padding: 12px;">Reverse rotate stack b down by 1</td></tr>
+      <tr><td style="padding: 12px;">rrr</td><td style="padding: 12px;">rra and rrb at the same time</td></tr>
+    </tbody>
+  </table>
+</div>
+
 
 
 
