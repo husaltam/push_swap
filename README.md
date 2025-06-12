@@ -34,26 +34,28 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 
 ![screenshot](Documanetation/stacks_0.png)
 
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>Full Width Table</title>
   <style>
-    /* Reset default body spacing */
-    body {
+    html, body {
       margin: 0;
       padding: 0;
+      width: 100%;
     }
 
-    /* Full-width table */
     table {
-      width: 100vw;
+      width: 100%;
       border-collapse: collapse;
+      table-layout: fixed;
     }
 
     th, td {
-      padding: 12px;
+      padding: 16px;
       text-align: left;
+      border: 1px solid #ccc;
     }
   </style>
 </head>
@@ -83,6 +85,7 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 
 </body>
 </html>
+
 
 
 
