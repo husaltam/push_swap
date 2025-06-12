@@ -32,6 +32,10 @@ I completed both the **mandatory** and **bonus parts** of this project.
 You have **2 stacks: `a` and `b`**.  
 The goal is to sort numbers in **stack `a`** in ascending order using the following operations:
 
+<div align="center">
+
+<!-- You can write your table in Markdown inside the div -->
+  
 | Operation | Description |
 |:------------|:------------------------------------------------|
 | `sa` | Swap the first 2 elements of stack a |
@@ -45,6 +49,9 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 | `rra` | Reverse rotate stack `a` down by 1 |
 | `rrb` | Reverse rotate stack `b` down by 1 |
 | `rrr` | `rra` and `rrb` at the same time |
+
+</div>
+
 
 ![screenshot](Documanetation/push_swap_1.png)
 ---
