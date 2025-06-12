@@ -35,29 +35,55 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 ![screenshot](Documanetation/stacks_0.png)
 
 
-<div style="margin: 0; padding: 0;">
-  <table style="width: 100vw; border-collapse: collapse; margin: 0; padding: 0;">
-    <thead>
-      <tr>
-        <th style="text-align: left; padding: 12px;">Operation</th>
-        <th style="text-align: left; padding: 12px;">Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td style="padding: 12px;">sa</td><td style="padding: 12px;">Swap the first 2 elements of stack a</td></tr>
-      <tr><td style="padding: 12px;">sb</td><td style="padding: 12px;">Swap the first 2 elements of stack b</td></tr>
-      <tr><td style="padding: 12px;">ss</td><td style="padding: 12px;">sa and sb at the same time</td></tr>
-      <tr><td style="padding: 12px;">pa</td><td style="padding: 12px;">Push the first element from b to a</td></tr>
-      <tr><td style="padding: 12px;">pb</td><td style="padding: 12px;">Push the first element from a to b</td></tr>
-      <tr><td style="padding: 12px;">ra</td><td style="padding: 12px;">Rotate stack a up by 1</td></tr>
-      <tr><td style="padding: 12px;">rb</td><td style="padding: 12px;">Rotate stack b up by 1</td></tr>
-      <tr><td style="padding: 12px;">rr</td><td style="padding: 12px;">ra and rb at the same time</td></tr>
-      <tr><td style="padding: 12px;">rra</td><td style="padding: 12px;">Reverse rotate stack a down by 1</td></tr>
-      <tr><td style="padding: 12px;">rrb</td><td style="padding: 12px;">Reverse rotate stack b down by 1</td></tr>
-      <tr><td style="padding: 12px;">rrr</td><td style="padding: 12px;">rra and rrb at the same time</td></tr>
-    </tbody>
-  </table>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Reset default body spacing */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Full-width table */
+    table {
+      width: 100vw;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operation</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>sa</td><td>Swap the first 2 elements of stack a</td></tr>
+    <tr><td>sb</td><td>Swap the first 2 elements of stack b</td></tr>
+    <tr><td>ss</td><td>sa and sb at the same time</td></tr>
+    <tr><td>pa</td><td>Push the first element from b to a</td></tr>
+    <tr><td>pb</td><td>Push the first element from a to b</td></tr>
+    <tr><td>ra</td><td>Rotate stack a up by 1</td></tr>
+    <tr><td>rb</td><td>Rotate stack b up by 1</td></tr>
+    <tr><td>rr</td><td>ra and rb at the same time</td></tr>
+    <tr><td>rra</td><td>Reverse rotate stack a down by 1</td></tr>
+    <tr><td>rrb</td><td>Reverse rotate stack b down by 1</td></tr>
+    <tr><td>rrr</td><td>rra and rrb at the same time</td></tr>
+  </tbody>
+</table>
+
+</body>
+</html>
+
 
 
 
