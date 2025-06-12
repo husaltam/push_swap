@@ -34,57 +34,20 @@ The goal is to sort numbers in **stack `a`** in ascending order using the follow
 
 ![screenshot](Documanetation/stacks_0.png)
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Full Width Table</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-    }
+| Operation | Description                                |
+|-----------|--------------------------------------------|
+| `sa`      | Swap the first 2 elements of stack `a`     |
+| `sb`      | Swap the first 2 elements of stack `b`     |
+| `ss`      | `sa` and `sb` at the same time             |
+| `pa`      | Push the first element from `b` to `a`     |
+| `pb`      | Push the first element from `a` to `b`     |
+| `ra`      | Rotate stack `a` up by 1                   |
+| `rb`      | Rotate stack `b` up by 1                   |
+| `rr`      | `ra` and `rb` at the same time             |
+| `rra`     | Reverse rotate stack `a` down by 1         |
+| `rrb`     | Reverse rotate stack `b` down by 1         |
+| `rrr`     | `rra` and `rrb` at the same time           |
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      table-layout: fixed;
-    }
-
-    th, td {
-      padding: 16px;
-      text-align: left;
-      border: 1px solid #ccc;
-    }
-  </style>
-</head>
-<body>
-
-<table>
-  <thead>
-    <tr>
-      <th>Operation</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>sa</td><td>Swap the first 2 elements of stack a</td></tr>
-    <tr><td>sb</td><td>Swap the first 2 elements of stack b</td></tr>
-    <tr><td>ss</td><td>sa and sb at the same time</td></tr>
-    <tr><td>pa</td><td>Push the first element from b to a</td></tr>
-    <tr><td>pb</td><td>Push the first element from a to b</td></tr>
-    <tr><td>ra</td><td>Rotate stack a up by 1</td></tr>
-    <tr><td>rb</td><td>Rotate stack b up by 1</td></tr>
-    <tr><td>rr</td><td>ra and rb at the same time</td></tr>
-    <tr><td>rra</td><td>Reverse rotate stack a down by 1</td></tr>
-    <tr><td>rrb</td><td>Reverse rotate stack b down by 1</td></tr>
-    <tr><td>rrr</td><td>rra and rrb at the same time</td></tr>
-  </tbody>
-</table>
-
-</body>
-</html>
 
 
 
