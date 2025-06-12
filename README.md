@@ -32,7 +32,7 @@ I completed both the **mandatory** and **bonus parts** of this project.
 You have **2 stacks: `a` and `b`**.  
 The goal is to sort numbers in **stack `a`** in ascending order using the following operations:
 
-![screenshot](Documanetation/push_swap_1.png)
+![screenshot](Documanetation/stacks_0.png)
 <div align="center">
   
 | Operation | Description |
